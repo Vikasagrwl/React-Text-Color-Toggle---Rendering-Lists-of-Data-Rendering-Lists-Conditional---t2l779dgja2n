@@ -9,7 +9,7 @@ const App = () => {
   }
   return (
     <div id="main">
-      <p className={isActive? 'redColor' : 'blueColor'} >Newton School</p>
+      <p className={isActive? 'blueColor' : 'redColor'} >Newton School</p>
       <button id='button' onClick={applyCss}>Change Style</button>
     </div>
   )
